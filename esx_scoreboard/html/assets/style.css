@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    display: flex;
+    border-radius: 10px;
+    padding: 5px 15px;
+    align-items: center;
+    background: rgba(0, 0, 0, .7);
+    color: #fff;
+    font-size: 13px;
+    border-bottom: 3px solid rgb(0, 255, 200);
+}
+
+
+#page {
+    display: none;
+    position: absolute;
+    top: 27%;
+    left: 85%;
+    transform: translateX(-50%);
+}
+
+.container {
+    width: 300px;
+    height: 400px;    
+}
+
+img {
+    position: absolute;
+    top: 3%;
+    left: 41.5%;
+    width: 64px;
+    margin-right: 20px;
+}
+
+.title {
+    position: absolute;
+    top: 20%;
+    left: 37.5%;
+    font-size: 20px;  
+    font-weight: 1000;
+}
+
+#napady {
+  display: block;
+  position: absolute;
+  left: 17.5%;
+  top: 25%;
+}
+
+#napady #napad {
+  display: flex;
+  margin-top: 5px;
+}
+
+#napady #napad #status {
+  position: absolute;
+  left: 110%;
+  color: crimson;
+  font-size: 19px;
+  font-weight: 1000;
+  margin-top: -3px;
+}
+
+#napady #napad #name {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.title2 {
+    position: absolute;
+    top: 52.5%;
+    left: 30%;
+    font-size: 20px;  
+    font-weight: 1000;
+}
+
+#frakcje {
+  display: block;
+  position: absolute;
+  left: 17.5%;
+  top: 57%;
+}
+
+#frakcje #frakcja {
+  display: flex;
+  margin-top: 7.5px;
+}
+
+#frakcje #frakcja #icon {
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+#frakcje #frakcja #name {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  left: 30px;
+}
+
+#frakcje #frakcja #status {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  left: 207.5px;
+  color: crimson;
+  font-weight: 1000;
+}
+
+.title3 {
+    position: absolute;
+    top: 76.5%;
+    left: 40%;
+    font-size: 20px;  
+    font-weight: 1000;
+}
+
+.prace {
+  display: block;
+  position: absolute;
+  left: 22.5%;
+  top: 82%;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#playersinfo {
+  margin-left: 20px;
+}
+
+.players {
+  position: absolute;
+  top: 92.5%;
+  left: 37.5%;
+  font-size: 16px;
+}
+
+.admins {
+  position: absolute;
+  top: 92.4%;
+  left: 50%;
+  font-size: 16px;
+}
